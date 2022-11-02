@@ -1,0 +1,526 @@
+{
+	"parts": [
+		{
+			"title": "Home",
+			"url": "https://beta.reactjs.org",
+			"sections": [
+				{
+					"title": "Overview",
+					"url": "/",
+					"filename": "_",
+					"pages": []
+				},
+				{
+					"title": "Community",
+					"url": "/community",
+					"filename": "_community",
+					"pages": [
+						{
+							"title": "Acknowledgements",
+							"url": "/community/acknowledgements",
+							"filename": "_community_acknowledgements"
+						},
+						{
+							"title": "Meet the Team",
+							"url": "/community/meet-the-team",
+							"filename": "_community_meet_the_team"
+						}
+					]
+				},
+				{
+					"title": "Blog",
+					"url": "https://reactjs.org/blog",
+					"filename": "https___reactjs_org_blog",
+					"pages": []
+				}
+			]
+		},
+		{
+			"title": "Learn",
+			"url": "https://beta.reactjs.org/learn",
+			"sections": [
+				{
+					"title": "Installation",
+					"url": "/learn/installation",
+					"filename": "_learn_installation",
+					"pages": [
+						{
+							"title": "Start a New React Project",
+							"url": "/learn/start-a-new-react-project",
+							"filename": "_learn_start_a_new_react_project"
+						},
+						{
+							"title": "Add React to a Website",
+							"url": "/learn/add-react-to-a-website",
+							"filename": "_learn_add_react_to_a_website"
+						},
+						{
+							"title": "Editor Setup",
+							"url": "/learn/editor-setup",
+							"filename": "_learn_editor_setup"
+						},
+						{
+							"title": "React Developer Tools",
+							"url": "/learn/react-developer-tools",
+							"filename": "_learn_react_developer_tools"
+						}
+					]
+				},
+				{
+					"title": "Quick Start",
+					"url": "/learn",
+					"filename": "_learn",
+					"pages": [
+						{
+							"title": "Thinking in React",
+							"url": "/learn/thinking-in-react",
+							"filename": "_learn_thinking_in_react"
+						}
+					]
+				},
+				{
+					"title": "Describing the UI",
+					"url": "/learn/describing-the-ui",
+					"filename": "_learn_describing_the_ui",
+					"pages": [
+						{
+							"title": "Your First Component",
+							"url": "/learn/your-first-component",
+							"filename": "_learn_your_first_component"
+						},
+						{
+							"title": "Importing and Exporting Components",
+							"url": "/learn/importing-and-exporting-components",
+							"filename": "_learn_importing_and_exporting_components"
+						},
+						{
+							"title": "Writing Markup with JSX",
+							"url": "/learn/writing-markup-with-jsx",
+							"filename": "_learn_writing_markup_with_jsx"
+						},
+						{
+							"title": "JavaScript in JSX with Curly Braces",
+							"url": "/learn/javascript-in-jsx-with-curly-braces",
+							"filename": "_learn_javascript_in_jsx_with_curly_braces"
+						},
+						{
+							"title": "Passing Props to a Component",
+							"url": "/learn/passing-props-to-a-component",
+							"filename": "_learn_passing_props_to_a_component"
+						},
+						{
+							"title": "Conditional Rendering",
+							"url": "/learn/conditional-rendering",
+							"filename": "_learn_conditional_rendering"
+						},
+						{
+							"title": "Rendering Lists",
+							"url": "/learn/rendering-lists",
+							"filename": "_learn_rendering_lists"
+						},
+						{
+							"title": "Keeping Components Pure",
+							"url": "/learn/keeping-components-pure",
+							"filename": "_learn_keeping_components_pure"
+						}
+					]
+				},
+				{
+					"title": "Adding Interactivity",
+					"url": "/learn/adding-interactivity",
+					"filename": "_learn_adding_interactivity",
+					"pages": [
+						{
+							"title": "Responding to Events",
+							"url": "/learn/responding-to-events",
+							"filename": "_learn_responding_to_events"
+						},
+						{
+							"title": "State: A Component's Memory",
+							"url": "/learn/state-a-components-memory",
+							"filename": "_learn_state_a_components_memory"
+						},
+						{
+							"title": "Render and Commit",
+							"url": "/learn/render-and-commit",
+							"filename": "_learn_render_and_commit"
+						},
+						{
+							"title": "State as a Snapshot",
+							"url": "/learn/state-as-a-snapshot",
+							"filename": "_learn_state_as_a_snapshot"
+						},
+						{
+							"title": "Queueing a Series of State Updates",
+							"url": "/learn/queueing-a-series-of-state-updates",
+							"filename": "_learn_queueing_a_series_of_state_updates"
+						},
+						{
+							"title": "Updating Objects in State",
+							"url": "/learn/updating-objects-in-state",
+							"filename": "_learn_updating_objects_in_state"
+						},
+						{
+							"title": "Updating Arrays in State",
+							"url": "/learn/updating-arrays-in-state",
+							"filename": "_learn_updating_arrays_in_state"
+						}
+					]
+				},
+				{
+					"title": "Managing State",
+					"url": "/learn/managing-state",
+					"filename": "_learn_managing_state",
+					"pages": [
+						{
+							"title": "Reacting to Input with State",
+							"url": "/learn/reacting-to-input-with-state",
+							"filename": "_learn_reacting_to_input_with_state"
+						},
+						{
+							"title": "Choosing the State Structure",
+							"url": "/learn/choosing-the-state-structure",
+							"filename": "_learn_choosing_the_state_structure"
+						},
+						{
+							"title": "Sharing State Between Components",
+							"url": "/learn/sharing-state-between-components",
+							"filename": "_learn_sharing_state_between_components"
+						},
+						{
+							"title": "Preserving and Resetting State",
+							"url": "/learn/preserving-and-resetting-state",
+							"filename": "_learn_preserving_and_resetting_state"
+						},
+						{
+							"title": "Extracting State Logic into a Reducer",
+							"url": "/learn/extracting-state-logic-into-a-reducer",
+							"filename": "_learn_extracting_state_logic_into_a_reducer"
+						},
+						{
+							"title": "Passing Data Deeply with Context",
+							"url": "/learn/passing-data-deeply-with-context",
+							"filename": "_learn_passing_data_deeply_with_context"
+						},
+						{
+							"title": "Scaling Up with Reducer and Context",
+							"url": "/learn/scaling-up-with-reducer-and-context",
+							"filename": "_learn_scaling_up_with_reducer_and_context"
+						}
+					]
+				},
+				{
+					"title": "Escape Hatches",
+					"url": "/learn/escape-hatches",
+					"filename": "_learn_escape_hatches",
+					"pages": [
+						{
+							"title": "Referencing Values with Refs",
+							"url": "/learn/referencing-values-with-refs",
+							"filename": "_learn_referencing_values_with_refs"
+						},
+						{
+							"title": "Manipulating the DOM with Refs",
+							"url": "/learn/manipulating-the-dom-with-refs",
+							"filename": "_learn_manipulating_the_dom_with_refs"
+						},
+						{
+							"title": "Synchronizing with Effects",
+							"url": "/learn/synchronizing-with-effects",
+							"filename": "_learn_synchronizing_with_effects"
+						},
+						{
+							"title": "You Might Not Need an Effect",
+							"url": "/learn/you-might-not-need-an-effect",
+							"filename": "_learn_you_might_not_need_an_effect"
+						},
+						{
+							"title": "Lifecycle of Reactive Effects",
+							"url": "/learn/lifecycle-of-reactive-effects",
+							"filename": "_learn_lifecycle_of_reactive_effects"
+						},
+						{
+							"title": "Separating Events from Effects",
+							"url": "/learn/separating-events-from-effects",
+							"filename": "_learn_separating_events_from_effects"
+						},
+						{
+							"title": "Removing Effect Dependencies",
+							"url": "/learn/removing-effect-dependencies",
+							"filename": "_learn_removing_effect_dependencies"
+						},
+						{
+							"title": "Reusing Logic with Custom Hooks",
+							"url": "/learn/reusing-logic-with-custom-hooks",
+							"filename": "_learn_reusing_logic_with_custom_hooks"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "API",
+			"url": "https://beta.reactjs.org/apis/react",
+			"sections": [
+				{
+					"title": "React APIs",
+					"url": "/apis/react",
+					"filename": "_apis_react",
+					"pages": [
+						{
+							"title": "Children",
+							"url": "/apis/react/Children",
+							"filename": "_apis_react_Children"
+						},
+						{
+							"title": "cloneElement",
+							"url": "/apis/react/cloneElement",
+							"filename": "_apis_react_cloneElement"
+						},
+						{
+							"title": "Component",
+							"url": "/apis/react/Component",
+							"filename": "_apis_react_Component"
+						},
+						{
+							"title": "createContext",
+							"url": "/apis/react/createContext",
+							"filename": "_apis_react_createContext"
+						},
+						{
+							"title": "createElement",
+							"url": "/apis/react/createElement",
+							"filename": "_apis_react_createElement"
+						},
+						{
+							"title": "createFactory",
+							"url": "/apis/react/createFactory",
+							"filename": "_apis_react_createFactory"
+						},
+						{
+							"title": "createRef",
+							"url": "/apis/react/createRef",
+							"filename": "_apis_react_createRef"
+						},
+						{
+							"title": "forwardRef",
+							"url": "/apis/react/forwardRef",
+							"filename": "_apis_react_forwardRef"
+						},
+						{
+							"title": "Fragment (<>...</>)",
+							"url": "/apis/react/Fragment",
+							"filename": "_apis_react_Fragment"
+						},
+						{
+							"title": "isValidElement",
+							"url": "/apis/react/isValidElement",
+							"filename": "_apis_react_isValidElement"
+						},
+						{
+							"title": "lazy",
+							"url": "/apis/react/lazy",
+							"filename": "_apis_react_lazy"
+						},
+						{
+							"title": "memo",
+							"url": "/apis/react/memo",
+							"filename": "_apis_react_memo"
+						},
+						{
+							"title": "PureComponent",
+							"url": "/apis/react/PureComponent",
+							"filename": "_apis_react_PureComponent"
+						},
+						{
+							"title": "startTransition",
+							"url": "/apis/react/startTransition",
+							"filename": "_apis_react_startTransition"
+						},
+						{
+							"title": "StrictMode",
+							"url": "/apis/react/StrictMode",
+							"filename": "_apis_react_StrictMode"
+						},
+						{
+							"title": "Suspense",
+							"url": "/apis/react/Suspense",
+							"filename": "_apis_react_Suspense"
+						},
+						{
+							"title": "useCallback",
+							"url": "/apis/react/useCallback",
+							"filename": "_apis_react_useCallback"
+						},
+						{
+							"title": "useContext",
+							"url": "/apis/react/useContext",
+							"filename": "_apis_react_useContext"
+						},
+						{
+							"title": "useDebugValue",
+							"url": "/apis/react/useDebugValue",
+							"filename": "_apis_react_useDebugValue"
+						},
+						{
+							"title": "useDeferredValue",
+							"url": "/apis/react/useDeferredValue",
+							"filename": "_apis_react_useDeferredValue"
+						},
+						{
+							"title": "useEffect",
+							"url": "/apis/react/useEffect",
+							"filename": "_apis_react_useEffect"
+						},
+						{
+							"title": "useEvent",
+							"url": "/apis/react/useEvent",
+							"filename": "_apis_react_useEvent"
+						},
+						{
+							"title": "useId",
+							"url": "/apis/react/useId",
+							"filename": "_apis_react_useId"
+						},
+						{
+							"title": "useImperativeHandle",
+							"url": "/apis/react/useImperativeHandle",
+							"filename": "_apis_react_useImperativeHandle"
+						},
+						{
+							"title": "useInsertionEffect",
+							"url": "/apis/react/useInsertionEffect",
+							"filename": "_apis_react_useInsertionEffect"
+						},
+						{
+							"title": "useLayoutEffect",
+							"url": "/apis/react/useLayoutEffect",
+							"filename": "_apis_react_useLayoutEffect"
+						},
+						{
+							"title": "useMemo",
+							"url": "/apis/react/useMemo",
+							"filename": "_apis_react_useMemo"
+						},
+						{
+							"title": "useReducer",
+							"url": "/apis/react/useReducer",
+							"filename": "_apis_react_useReducer"
+						},
+						{
+							"title": "useRef",
+							"url": "/apis/react/useRef",
+							"filename": "_apis_react_useRef"
+						},
+						{
+							"title": "useState",
+							"url": "/apis/react/useState",
+							"filename": "_apis_react_useState"
+						},
+						{
+							"title": "useSyncExternalStore",
+							"url": "/apis/react/useSyncExternalStore",
+							"filename": "_apis_react_useSyncExternalStore"
+						},
+						{
+							"title": "useTransition",
+							"url": "/apis/react/useTransition",
+							"filename": "_apis_react_useTransition"
+						}
+					]
+				},
+				{
+					"title": "ReactDOM APIs",
+					"url": "/apis/react-dom",
+					"filename": "_apis_react_dom",
+					"pages": [
+						{
+							"title": "createPortal",
+							"url": "/apis/react-dom/createPortal",
+							"filename": "_apis_react_dom_createPortal"
+						},
+						{
+							"title": "findDOMNode",
+							"url": "/apis/react-dom/findDOMNode",
+							"filename": "_apis_react_dom_findDOMNode"
+						},
+						{
+							"title": "flushSync",
+							"url": "/apis/react-dom/flushSync",
+							"filename": "_apis_react_dom_flushSync"
+						},
+						{
+							"title": "hydrate",
+							"url": "/apis/react-dom/hydrate",
+							"filename": "_apis_react_dom_hydrate"
+						},
+						{
+							"title": "render",
+							"url": "/apis/react-dom/render",
+							"filename": "_apis_react_dom_render"
+						},
+						{
+							"title": "unmountComponentAtNode",
+							"url": "/apis/react-dom/unmountComponentAtNode",
+							"filename": "_apis_react_dom_unmountComponentAtNode"
+						}
+					]
+				},
+				{
+					"title": "ReactDOMClient APIs",
+					"url": "/apis/react-dom/client",
+					"filename": "_apis_react_dom_client",
+					"pages": [
+						{
+							"title": "createRoot",
+							"url": "/apis/react-dom/client/createRoot",
+							"filename": "_apis_react_dom_client_createRoot"
+						},
+						{
+							"title": "hydrateRoot",
+							"url": "/apis/react-dom/client/hydrateRoot",
+							"filename": "_apis_react_dom_client_hydrateRoot"
+						}
+					]
+				},
+				{
+					"title": "ReactDOMServer APIs",
+					"url": "/apis/react-dom/server",
+					"filename": "_apis_react_dom_server",
+					"pages": [
+						{
+							"title": "renderToNodeStream",
+							"url": "/apis/react-dom/server/renderToNodeStream",
+							"filename": "_apis_react_dom_server_renderToNodeStream"
+						},
+						{
+							"title": "renderToPipeableStream",
+							"url": "/apis/react-dom/server/renderToPipeableStream",
+							"filename": "_apis_react_dom_server_renderToPipeableStream"
+						},
+						{
+							"title": "renderToReadableStream",
+							"url": "/apis/react-dom/server/renderToReadableStream",
+							"filename": "_apis_react_dom_server_renderToReadableStream"
+						},
+						{
+							"title": "renderToStaticMarkup",
+							"url": "/apis/react-dom/server/renderToStaticMarkup",
+							"filename": "_apis_react_dom_server_renderToStaticMarkup"
+						},
+						{
+							"title": "renderToStaticNodeStream",
+							"url": "/apis/react-dom/server/renderToStaticNodeStream",
+							"filename": "_apis_react_dom_server_renderToStaticNodeStream"
+						},
+						{
+							"title": "renderToString",
+							"url": "/apis/react-dom/server/renderToString",
+							"filename": "_apis_react_dom_server_renderToString"
+						}
+					]
+				}
+			]
+		}
+	]
+}
