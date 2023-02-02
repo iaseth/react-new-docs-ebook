@@ -22,11 +22,11 @@
 
 	{% for section in book.sections %}
 	<navPoint id="{{ section.getIdref() }}" playOrder="{{ counter.count() }}">
-		<navLabel><text>{{ section.title }}</text></navLabel>
+		<navLabel><text>{{ section.title|e }}</text></navLabel>
 		<content src="{{ section.getLocalHtmlFilepath() }}"/>
 		{% for page in section.pages %}
 		<navPoint id="{{ page.getIdref() }}" playOrder="{{ counter.count() }}">
-			<navLabel><text>{{ page.title }}</text></navLabel>
+			<navLabel><text>{{ page.title|e }}</text></navLabel>
 			<content src="{{ page.getLocalHtmlFilepath() }}"/>
 		</navPoint>
 		{% endfor %}

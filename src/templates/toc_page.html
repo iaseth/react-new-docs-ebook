@@ -11,10 +11,10 @@
 
 			{% for section in book.sections %}
 			<li>
-				<p>Section: <b><a href="{{ section.getHtmlFilename() }}">{{ section.title }}</a></b> ({{ section.length() }} pages)</p>
+				<p>Section: <b><a href="{{ section.getHtmlFilename() }}">{{ section.title|e }}</a></b> ({{ section.length() }} pages)</p>
 				<ol>
 					{% for page in section.pages %}
-					<li><b><a href="{{ page.getHtmlFilename() }}">{{ page.title }}</a></b></li>
+					<li><b><a href="{{ page.getHtmlFilename() }}">{{ page.title|e }}</a></b></li>
 					{% endfor %}
 				</ol>
 			</li>
