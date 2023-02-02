@@ -11,11 +11,12 @@ def sanitize_string(s):
 
 def get_route_object(route):
 	path = route["path"]
+	url = path if path.startswith("https://") else f"https://beta.reactjs.org{path}"
 	route_object = {
-		"filename": sanitize_string("path"),
+		"filename": sanitize_string(path),
 		"path": path,
 		"title": route["title"],
-		"URL": f"https://beta.reactjs.org{path}",
+		"URL": url,
 	}
 	return route_object
 

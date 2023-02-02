@@ -4,31 +4,31 @@
 			"sectionHeader": "Get Started",
 			"sections": [
 				{
-					"filename": "path",
+					"filename": "_learn_installation",
 					"path": "/learn/installation",
 					"title": "Installation",
 					"URL": "https://beta.reactjs.org/learn/installation",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_learn_start_a_new_react_project",
 							"path": "/learn/start-a-new-react-project",
 							"title": "Start a New React Project",
 							"URL": "https://beta.reactjs.org/learn/start-a-new-react-project"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_add_react_to_a_website",
 							"path": "/learn/add-react-to-a-website",
 							"title": "Add React to a Website",
 							"URL": "https://beta.reactjs.org/learn/add-react-to-a-website"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_editor_setup",
 							"path": "/learn/editor-setup",
 							"title": "Editor Setup",
 							"URL": "https://beta.reactjs.org/learn/editor-setup"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_react_developer_tools",
 							"path": "/learn/react-developer-tools",
 							"title": "React Developer Tools",
 							"URL": "https://beta.reactjs.org/learn/react-developer-tools"
@@ -36,19 +36,19 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_learn",
 					"path": "/learn",
 					"title": "Quick Start",
 					"URL": "https://beta.reactjs.org/learn",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_learn_tutorial_tic_tac_toe",
 							"path": "/learn/tutorial-tic-tac-toe",
 							"title": "Tutorial: Tic-Tac-Toe",
 							"URL": "https://beta.reactjs.org/learn/tutorial-tic-tac-toe"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_thinking_in_react",
 							"path": "/learn/thinking-in-react",
 							"title": "Thinking in React",
 							"URL": "https://beta.reactjs.org/learn/thinking-in-react"
@@ -61,55 +61,55 @@
 			"sectionHeader": "Learn React",
 			"sections": [
 				{
-					"filename": "path",
+					"filename": "_learn_describing_the_ui",
 					"path": "/learn/describing-the-ui",
 					"title": "Describing the UI",
 					"URL": "https://beta.reactjs.org/learn/describing-the-ui",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_learn_your_first_component",
 							"path": "/learn/your-first-component",
 							"title": "Your First Component",
 							"URL": "https://beta.reactjs.org/learn/your-first-component"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_importing_and_exporting_components",
 							"path": "/learn/importing-and-exporting-components",
 							"title": "Importing and Exporting Components",
 							"URL": "https://beta.reactjs.org/learn/importing-and-exporting-components"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_writing_markup_with_jsx",
 							"path": "/learn/writing-markup-with-jsx",
 							"title": "Writing Markup with JSX",
 							"URL": "https://beta.reactjs.org/learn/writing-markup-with-jsx"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_javascript_in_jsx_with_curly_braces",
 							"path": "/learn/javascript-in-jsx-with-curly-braces",
 							"title": "JavaScript in JSX with Curly Braces",
 							"URL": "https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_passing_props_to_a_component",
 							"path": "/learn/passing-props-to-a-component",
 							"title": "Passing Props to a Component",
 							"URL": "https://beta.reactjs.org/learn/passing-props-to-a-component"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_conditional_rendering",
 							"path": "/learn/conditional-rendering",
 							"title": "Conditional Rendering",
 							"URL": "https://beta.reactjs.org/learn/conditional-rendering"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_rendering_lists",
 							"path": "/learn/rendering-lists",
 							"title": "Rendering Lists",
 							"URL": "https://beta.reactjs.org/learn/rendering-lists"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_keeping_components_pure",
 							"path": "/learn/keeping-components-pure",
 							"title": "Keeping Components Pure",
 							"URL": "https://beta.reactjs.org/learn/keeping-components-pure"
@@ -117,49 +117,49 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_learn_adding_interactivity",
 					"path": "/learn/adding-interactivity",
 					"title": "Adding Interactivity",
 					"URL": "https://beta.reactjs.org/learn/adding-interactivity",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_learn_responding_to_events",
 							"path": "/learn/responding-to-events",
 							"title": "Responding to Events",
 							"URL": "https://beta.reactjs.org/learn/responding-to-events"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_state_a_components_memory",
 							"path": "/learn/state-a-components-memory",
 							"title": "State: A Component's Memory",
 							"URL": "https://beta.reactjs.org/learn/state-a-components-memory"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_render_and_commit",
 							"path": "/learn/render-and-commit",
 							"title": "Render and Commit",
 							"URL": "https://beta.reactjs.org/learn/render-and-commit"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_state_as_a_snapshot",
 							"path": "/learn/state-as-a-snapshot",
 							"title": "State as a Snapshot",
 							"URL": "https://beta.reactjs.org/learn/state-as-a-snapshot"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_queueing_a_series_of_state_updates",
 							"path": "/learn/queueing-a-series-of-state-updates",
 							"title": "Queueing a Series of State Updates",
 							"URL": "https://beta.reactjs.org/learn/queueing-a-series-of-state-updates"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_updating_objects_in_state",
 							"path": "/learn/updating-objects-in-state",
 							"title": "Updating Objects in State",
 							"URL": "https://beta.reactjs.org/learn/updating-objects-in-state"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_updating_arrays_in_state",
 							"path": "/learn/updating-arrays-in-state",
 							"title": "Updating Arrays in State",
 							"URL": "https://beta.reactjs.org/learn/updating-arrays-in-state"
@@ -167,49 +167,49 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_learn_managing_state",
 					"path": "/learn/managing-state",
 					"title": "Managing State",
 					"URL": "https://beta.reactjs.org/learn/managing-state",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_learn_reacting_to_input_with_state",
 							"path": "/learn/reacting-to-input-with-state",
 							"title": "Reacting to Input with State",
 							"URL": "https://beta.reactjs.org/learn/reacting-to-input-with-state"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_choosing_the_state_structure",
 							"path": "/learn/choosing-the-state-structure",
 							"title": "Choosing the State Structure",
 							"URL": "https://beta.reactjs.org/learn/choosing-the-state-structure"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_sharing_state_between_components",
 							"path": "/learn/sharing-state-between-components",
 							"title": "Sharing State Between Components",
 							"URL": "https://beta.reactjs.org/learn/sharing-state-between-components"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_preserving_and_resetting_state",
 							"path": "/learn/preserving-and-resetting-state",
 							"title": "Preserving and Resetting State",
 							"URL": "https://beta.reactjs.org/learn/preserving-and-resetting-state"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_extracting_state_logic_into_a_reducer",
 							"path": "/learn/extracting-state-logic-into-a-reducer",
 							"title": "Extracting State Logic into a Reducer",
 							"URL": "https://beta.reactjs.org/learn/extracting-state-logic-into-a-reducer"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_passing_data_deeply_with_context",
 							"path": "/learn/passing-data-deeply-with-context",
 							"title": "Passing Data Deeply with Context",
 							"URL": "https://beta.reactjs.org/learn/passing-data-deeply-with-context"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_scaling_up_with_reducer_and_context",
 							"path": "/learn/scaling-up-with-reducer-and-context",
 							"title": "Scaling Up with Reducer and Context",
 							"URL": "https://beta.reactjs.org/learn/scaling-up-with-reducer-and-context"
@@ -217,55 +217,55 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_learn_escape_hatches",
 					"path": "/learn/escape-hatches",
 					"title": "Escape Hatches",
 					"URL": "https://beta.reactjs.org/learn/escape-hatches",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_learn_referencing_values_with_refs",
 							"path": "/learn/referencing-values-with-refs",
 							"title": "Referencing Values with Refs",
 							"URL": "https://beta.reactjs.org/learn/referencing-values-with-refs"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_manipulating_the_dom_with_refs",
 							"path": "/learn/manipulating-the-dom-with-refs",
 							"title": "Manipulating the DOM with Refs",
 							"URL": "https://beta.reactjs.org/learn/manipulating-the-dom-with-refs"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_synchronizing_with_effects",
 							"path": "/learn/synchronizing-with-effects",
 							"title": "Synchronizing with Effects",
 							"URL": "https://beta.reactjs.org/learn/synchronizing-with-effects"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_you_might_not_need_an_effect",
 							"path": "/learn/you-might-not-need-an-effect",
 							"title": "You Might Not Need an Effect",
 							"URL": "https://beta.reactjs.org/learn/you-might-not-need-an-effect"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_lifecycle_of_reactive_effects",
 							"path": "/learn/lifecycle-of-reactive-effects",
 							"title": "Lifecycle of Reactive Effects",
 							"URL": "https://beta.reactjs.org/learn/lifecycle-of-reactive-effects"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_separating_events_from_effects",
 							"path": "/learn/separating-events-from-effects",
 							"title": "Separating Events from Effects",
 							"URL": "https://beta.reactjs.org/learn/separating-events-from-effects"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_removing_effect_dependencies",
 							"path": "/learn/removing-effect-dependencies",
 							"title": "Removing Effect Dependencies",
 							"URL": "https://beta.reactjs.org/learn/removing-effect-dependencies"
 						},
 						{
-							"filename": "path",
+							"filename": "_learn_reusing_logic_with_custom_hooks",
 							"path": "/learn/reusing-logic-with-custom-hooks",
 							"title": "Reusing Logic with Custom Hooks",
 							"URL": "https://beta.reactjs.org/learn/reusing-logic-with-custom-hooks"
@@ -278,49 +278,49 @@
 			"sectionHeader": "About React",
 			"sections": [
 				{
-					"filename": "path",
+					"filename": "_community",
 					"path": "/community",
 					"title": "Community",
 					"URL": "https://beta.reactjs.org/community",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_community_conferences",
 							"path": "/community/conferences",
 							"title": "React Conferences",
 							"URL": "https://beta.reactjs.org/community/conferences"
 						},
 						{
-							"filename": "path",
+							"filename": "_community_meetups",
 							"path": "/community/meetups",
 							"title": "React Meetups",
 							"URL": "https://beta.reactjs.org/community/meetups"
 						},
 						{
-							"filename": "path",
+							"filename": "_community_videos",
 							"path": "/community/videos",
 							"title": "React Videos",
 							"URL": "https://beta.reactjs.org/community/videos"
 						},
 						{
-							"filename": "path",
+							"filename": "_community_team",
 							"path": "/community/team",
 							"title": "Meet the Team",
 							"URL": "https://beta.reactjs.org/community/team"
 						},
 						{
-							"filename": "path",
+							"filename": "_community_docs_contributors",
 							"path": "/community/docs-contributors",
 							"title": "Docs Contributors",
 							"URL": "https://beta.reactjs.org/community/docs-contributors"
 						},
 						{
-							"filename": "path",
+							"filename": "_community_acknowledgements",
 							"path": "/community/acknowledgements",
 							"title": "Acknowledgements",
 							"URL": "https://beta.reactjs.org/community/acknowledgements"
 						},
 						{
-							"filename": "path",
+							"filename": "_community_versioning_policy",
 							"path": "/community/versioning-policy",
 							"title": "Versioning Policy",
 							"URL": "https://beta.reactjs.org/community/versioning-policy"
@@ -328,52 +328,52 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_blog",
 					"path": "/blog",
 					"title": "Blog",
 					"URL": "https://beta.reactjs.org/blog",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_blog_2022_06_15_react_labs_what_we_have_been_working_on_june_2022",
 							"path": "/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022",
 							"title": "React Labs: June 2022",
 							"URL": "https://beta.reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022"
 						},
 						{
-							"filename": "path",
+							"filename": "_blog_2022_03_29_react_v18",
 							"path": "/blog/2022/03/29/react-v18",
 							"title": "React v18.0",
 							"URL": "https://beta.reactjs.org/blog/2022/03/29/react-v18"
 						},
 						{
-							"filename": "path",
+							"filename": "_blog_2022_03_08_react_18_upgrade_guide",
 							"path": "/blog/2022/03/08/react-18-upgrade-guide",
 							"title": "How to Upgrade to React 18",
 							"URL": "https://beta.reactjs.org/blog/2022/03/08/react-18-upgrade-guide"
 						},
 						{
-							"filename": "path",
+							"filename": "_blog_2021_12_17_react_conf_2021_recap",
 							"path": "/blog/2021/12/17/react-conf-2021-recap",
 							"title": "React Conf 2021 Recap",
 							"URL": "https://beta.reactjs.org/blog/2021/12/17/react-conf-2021-recap"
 						},
 						{
-							"filename": "path",
+							"filename": "_blog_2021_06_08_the_plan_for_react_18",
 							"path": "/blog/2021/06/08/the-plan-for-react-18",
 							"title": "The Plan for React 18",
 							"URL": "https://beta.reactjs.org/blog/2021/06/08/the-plan-for-react-18"
 						},
 						{
-							"filename": "path",
+							"filename": "_blog_2020_12_21_data_fetching_with_react_server_components",
 							"path": "/blog/2020/12/21/data-fetching-with-react-server-components",
 							"title": "Introducing Server Components",
 							"URL": "https://beta.reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components"
 						},
 						{
-							"filename": "path",
+							"filename": "https___reactjs_org_blog_all_html",
 							"path": "https://reactjs.org/blog/all.html",
 							"title": "Older posts",
-							"URL": "https://beta.reactjs.orghttps://reactjs.org/blog/all.html"
+							"URL": "https://reactjs.org/blog/all.html"
 						}
 					]
 				}
@@ -383,31 +383,31 @@
 			"sectionHeader": "'react' package",
 			"sections": [
 				{
-					"filename": "path",
+					"filename": "_reference_react_components",
 					"path": "/reference/react/components",
 					"title": "Components",
 					"URL": "https://beta.reactjs.org/reference/react/components",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_Fragment",
 							"path": "/reference/react/Fragment",
 							"title": "<Fragment> (<>)",
 							"URL": "https://beta.reactjs.org/reference/react/Fragment"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_Profiler",
 							"path": "/reference/react/Profiler",
 							"title": "<Profiler>",
 							"URL": "https://beta.reactjs.org/reference/react/Profiler"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_StrictMode",
 							"path": "/reference/react/StrictMode",
 							"title": "<StrictMode>",
 							"URL": "https://beta.reactjs.org/reference/react/StrictMode"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_Suspense",
 							"path": "/reference/react/Suspense",
 							"title": "<Suspense>",
 							"URL": "https://beta.reactjs.org/reference/react/Suspense"
@@ -415,97 +415,97 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_reference_react",
 					"path": "/reference/react",
 					"title": "Hooks",
 					"URL": "https://beta.reactjs.org/reference/react",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_useCallback",
 							"path": "/reference/react/useCallback",
 							"title": "useCallback",
 							"URL": "https://beta.reactjs.org/reference/react/useCallback"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useContext",
 							"path": "/reference/react/useContext",
 							"title": "useContext",
 							"URL": "https://beta.reactjs.org/reference/react/useContext"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useDebugValue",
 							"path": "/reference/react/useDebugValue",
 							"title": "useDebugValue",
 							"URL": "https://beta.reactjs.org/reference/react/useDebugValue"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useDeferredValue",
 							"path": "/reference/react/useDeferredValue",
 							"title": "useDeferredValue",
 							"URL": "https://beta.reactjs.org/reference/react/useDeferredValue"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useEffect",
 							"path": "/reference/react/useEffect",
 							"title": "useEffect",
 							"URL": "https://beta.reactjs.org/reference/react/useEffect"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useId",
 							"path": "/reference/react/useId",
 							"title": "useId",
 							"URL": "https://beta.reactjs.org/reference/react/useId"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useImperativeHandle",
 							"path": "/reference/react/useImperativeHandle",
 							"title": "useImperativeHandle",
 							"URL": "https://beta.reactjs.org/reference/react/useImperativeHandle"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useInsertionEffect",
 							"path": "/reference/react/useInsertionEffect",
 							"title": "useInsertionEffect",
 							"URL": "https://beta.reactjs.org/reference/react/useInsertionEffect"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useLayoutEffect",
 							"path": "/reference/react/useLayoutEffect",
 							"title": "useLayoutEffect",
 							"URL": "https://beta.reactjs.org/reference/react/useLayoutEffect"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useMemo",
 							"path": "/reference/react/useMemo",
 							"title": "useMemo",
 							"URL": "https://beta.reactjs.org/reference/react/useMemo"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useReducer",
 							"path": "/reference/react/useReducer",
 							"title": "useReducer",
 							"URL": "https://beta.reactjs.org/reference/react/useReducer"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useRef",
 							"path": "/reference/react/useRef",
 							"title": "useRef",
 							"URL": "https://beta.reactjs.org/reference/react/useRef"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useState",
 							"path": "/reference/react/useState",
 							"title": "useState",
 							"URL": "https://beta.reactjs.org/reference/react/useState"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useSyncExternalStore",
 							"path": "/reference/react/useSyncExternalStore",
 							"title": "useSyncExternalStore",
 							"URL": "https://beta.reactjs.org/reference/react/useSyncExternalStore"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_useTransition",
 							"path": "/reference/react/useTransition",
 							"title": "useTransition",
 							"URL": "https://beta.reactjs.org/reference/react/useTransition"
@@ -513,37 +513,37 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_reference_react_apis",
 					"path": "/reference/react/apis",
 					"title": "APIs",
 					"URL": "https://beta.reactjs.org/reference/react/apis",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_createContext",
 							"path": "/reference/react/createContext",
 							"title": "createContext",
 							"URL": "https://beta.reactjs.org/reference/react/createContext"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_forwardRef",
 							"path": "/reference/react/forwardRef",
 							"title": "forwardRef",
 							"URL": "https://beta.reactjs.org/reference/react/forwardRef"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_lazy",
 							"path": "/reference/react/lazy",
 							"title": "lazy",
 							"URL": "https://beta.reactjs.org/reference/react/lazy"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_memo",
 							"path": "/reference/react/memo",
 							"title": "memo",
 							"URL": "https://beta.reactjs.org/reference/react/memo"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_startTransition",
 							"path": "/reference/react/startTransition",
 							"title": "startTransition",
 							"URL": "https://beta.reactjs.org/reference/react/startTransition"
@@ -556,43 +556,43 @@
 			"sectionHeader": "'react-dom' package",
 			"sections": [
 				{
-					"filename": "path",
+					"filename": "_reference_react_dom_components",
 					"path": "/reference/react-dom/components",
 					"title": "Components",
 					"URL": "https://beta.reactjs.org/reference/react-dom/components",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_components_common",
 							"path": "/reference/react-dom/components/common",
 							"title": "Common (e.g. <div>)",
 							"URL": "https://beta.reactjs.org/reference/react-dom/components/common"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_components_input",
 							"path": "/reference/react-dom/components/input",
 							"title": "<input>",
 							"URL": "https://beta.reactjs.org/reference/react-dom/components/input"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_components_option",
 							"path": "/reference/react-dom/components/option",
 							"title": "<option>",
 							"URL": "https://beta.reactjs.org/reference/react-dom/components/option"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_components_progress",
 							"path": "/reference/react-dom/components/progress",
 							"title": "<progress>",
 							"URL": "https://beta.reactjs.org/reference/react-dom/components/progress"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_components_select",
 							"path": "/reference/react-dom/components/select",
 							"title": "<select>",
 							"URL": "https://beta.reactjs.org/reference/react-dom/components/select"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_components_textarea",
 							"path": "/reference/react-dom/components/textarea",
 							"title": "<textarea>",
 							"URL": "https://beta.reactjs.org/reference/react-dom/components/textarea"
@@ -600,43 +600,43 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_reference_react_dom",
 					"path": "/reference/react-dom",
 					"title": "APIs",
 					"URL": "https://beta.reactjs.org/reference/react-dom",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_createPortal",
 							"path": "/reference/react-dom/createPortal",
 							"title": "createPortal",
 							"URL": "https://beta.reactjs.org/reference/react-dom/createPortal"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_flushSync",
 							"path": "/reference/react-dom/flushSync",
 							"title": "flushSync",
 							"URL": "https://beta.reactjs.org/reference/react-dom/flushSync"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_findDOMNode",
 							"path": "/reference/react-dom/findDOMNode",
 							"title": "findDOMNode",
 							"URL": "https://beta.reactjs.org/reference/react-dom/findDOMNode"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_hydrate",
 							"path": "/reference/react-dom/hydrate",
 							"title": "hydrate",
 							"URL": "https://beta.reactjs.org/reference/react-dom/hydrate"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_render",
 							"path": "/reference/react-dom/render",
 							"title": "render",
 							"URL": "https://beta.reactjs.org/reference/react-dom/render"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_unmountComponentAtNode",
 							"path": "/reference/react-dom/unmountComponentAtNode",
 							"title": "unmountComponentAtNode",
 							"URL": "https://beta.reactjs.org/reference/react-dom/unmountComponentAtNode"
@@ -644,19 +644,19 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_reference_react_dom_client",
 					"path": "/reference/react-dom/client",
 					"title": "Client APIs",
 					"URL": "https://beta.reactjs.org/reference/react-dom/client",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_client_createRoot",
 							"path": "/reference/react-dom/client/createRoot",
 							"title": "createRoot",
 							"URL": "https://beta.reactjs.org/reference/react-dom/client/createRoot"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_client_hydrateRoot",
 							"path": "/reference/react-dom/client/hydrateRoot",
 							"title": "hydrateRoot",
 							"URL": "https://beta.reactjs.org/reference/react-dom/client/hydrateRoot"
@@ -664,43 +664,43 @@
 					]
 				},
 				{
-					"filename": "path",
+					"filename": "_reference_react_dom_server",
 					"path": "/reference/react-dom/server",
 					"title": "Server APIs",
 					"URL": "https://beta.reactjs.org/reference/react-dom/server",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_server_renderToNodeStream",
 							"path": "/reference/react-dom/server/renderToNodeStream",
 							"title": "renderToNodeStream",
 							"URL": "https://beta.reactjs.org/reference/react-dom/server/renderToNodeStream"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_server_renderToPipeableStream",
 							"path": "/reference/react-dom/server/renderToPipeableStream",
 							"title": "renderToPipeableStream",
 							"URL": "https://beta.reactjs.org/reference/react-dom/server/renderToPipeableStream"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_server_renderToReadableStream",
 							"path": "/reference/react-dom/server/renderToReadableStream",
 							"title": "renderToReadableStream",
 							"URL": "https://beta.reactjs.org/reference/react-dom/server/renderToReadableStream"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_server_renderToStaticMarkup",
 							"path": "/reference/react-dom/server/renderToStaticMarkup",
 							"title": "renderToStaticMarkup",
 							"URL": "https://beta.reactjs.org/reference/react-dom/server/renderToStaticMarkup"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_server_renderToStaticNodeStream",
 							"path": "/reference/react-dom/server/renderToStaticNodeStream",
 							"title": "renderToStaticNodeStream",
 							"URL": "https://beta.reactjs.org/reference/react-dom/server/renderToStaticNodeStream"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_dom_server_renderToString",
 							"path": "/reference/react-dom/server/renderToString",
 							"title": "renderToString",
 							"URL": "https://beta.reactjs.org/reference/react-dom/server/renderToString"
@@ -713,55 +713,55 @@
 			"sectionHeader": "Legacy APIs",
 			"sections": [
 				{
-					"filename": "path",
+					"filename": "_reference_react_legacy",
 					"path": "/reference/react/legacy",
 					"title": "Legacy React APIs",
 					"URL": "https://beta.reactjs.org/reference/react/legacy",
 					"pages": [
 						{
-							"filename": "path",
+							"filename": "_reference_react_Children",
 							"path": "/reference/react/Children",
 							"title": "Children",
 							"URL": "https://beta.reactjs.org/reference/react/Children"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_cloneElement",
 							"path": "/reference/react/cloneElement",
 							"title": "cloneElement",
 							"URL": "https://beta.reactjs.org/reference/react/cloneElement"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_Component",
 							"path": "/reference/react/Component",
 							"title": "Component",
 							"URL": "https://beta.reactjs.org/reference/react/Component"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_createElement",
 							"path": "/reference/react/createElement",
 							"title": "createElement",
 							"URL": "https://beta.reactjs.org/reference/react/createElement"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_createFactory",
 							"path": "/reference/react/createFactory",
 							"title": "createFactory",
 							"URL": "https://beta.reactjs.org/reference/react/createFactory"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_createRef",
 							"path": "/reference/react/createRef",
 							"title": "createRef",
 							"URL": "https://beta.reactjs.org/reference/react/createRef"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_isValidElement",
 							"path": "/reference/react/isValidElement",
 							"title": "isValidElement",
 							"URL": "https://beta.reactjs.org/reference/react/isValidElement"
 						},
 						{
-							"filename": "path",
+							"filename": "_reference_react_PureComponent",
 							"path": "/reference/react/PureComponent",
 							"title": "PureComponent",
 							"URL": "https://beta.reactjs.org/reference/react/PureComponent"
