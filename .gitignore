@@ -1,0 +1,6 @@
+
+__pycache__/
+data/
+downloaded/html/*.html
+*.epub
+*.azw3
