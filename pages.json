@@ -368,12 +368,6 @@
 							"path": "/blog/2020/12/21/data-fetching-with-react-server-components",
 							"title": "Introducing Server Components",
 							"URL": "https://beta.reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components"
-						},
-						{
-							"filename": "https___reactjs_org_blog_all_html",
-							"path": "https://reactjs.org/blog/all.html",
-							"title": "Older posts",
-							"URL": "https://reactjs.org/blog/all.html"
 						}
 					]
 				}

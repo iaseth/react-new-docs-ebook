@@ -11,12 +11,14 @@ def sanitize_string(s):
 
 def get_route_object(route):
 	path = route["path"]
-	url = path if path.startswith("https://") else f"https://beta.reactjs.org{path}"
+	if path.startswith("https://"):
+		return None
+
 	route_object = {
 		"filename": sanitize_string(path),
 		"path": path,
 		"title": route["title"],
-		"URL": url,
+		"URL": f"https://beta.reactjs.org{path}",
 	}
 	return route_object
 
@@ -40,7 +42,8 @@ def main():
 			part["sections"].append(section)
 			for page_route in route["routes"]:
 				page = get_route_object(page_route)
-				section["pages"].append(page)
+				if page:
+					section["pages"].append(page)
 
 	jo = {}
 	jo["parts"] = parts
