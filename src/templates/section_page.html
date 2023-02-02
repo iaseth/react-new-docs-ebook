@@ -17,6 +17,18 @@
 			{% endfor %}
 		</ul>
 	</div>
+
+	{{ page.get_content_html() }}
+
+	<div>
+		<ul>
+			{% for page in page.pages %}
+			<ol>
+				<h4><a href="{{ page.getHtmlFilename() }}">{{ page.title }}</a></h4>
+			</ol>
+			{% endfor %}
+		</ul>
+	</div>
 	<h4><a href="x_inline_toc.html">Table of contents</a></h4>
 </body>
 </html>

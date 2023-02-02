@@ -10,7 +10,7 @@ from .utils import Counter, ReactOrgTemplate, setIndex, setNextPrevious
 
 class ReactOrgApp:
 	def __init__(self):
-		self.name = "React.org"
+		self.name = "react-beta-docs"
 		self.setup_templates()
 		self.preferences = json.load(open('preferences.json'))
 		self.jo = json.load(open('pages.json'))

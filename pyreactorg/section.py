@@ -7,6 +7,8 @@ class ReactOrgSection(HtmlBaseclass):
 		self.app = app
 		self.jo = jo
 		self.title = self.jo['title']
+		self.filepath = f"data/html/{jo['filename']}.html"
+
 		self.pages = []
 		for pj in self.jo['pages']:
 			page = ReactOrgPage(self, pj)
@@ -15,6 +17,9 @@ class ReactOrgSection(HtmlBaseclass):
 
 	def getIdref(self):
 		return f"x_section_{self.index}"
+
+	def get_content_html(self):
+		return open(self.filepath).read()
 
 	def __str__(self):
 		return f"ReactOrgSection '{self.title}' [{self.length()} pages]"
