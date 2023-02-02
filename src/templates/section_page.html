@@ -13,10 +13,10 @@
 
 	<div>
 		<ul>
-			{% for page in page.pages %}
-			<ol>
-				<h4><a href="{{ page.getHtmlFilename() }}">{{ page.title|e }}</a></h4>
-			</ol>
+			{% for article in page.pages %}
+			<li>
+				<h4><a href="{{ article.getHtmlFilename() }}">{{ article.title|e }}</a></h4>
+			</li>
 			{% endfor %}
 		</ul>
 	</div>
