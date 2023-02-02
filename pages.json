@@ -1,8 +1,8 @@
 {
-	"sections": [
+	"parts": [
 		{
 			"sectionHeader": "Get Started",
-			"chapters": [
+			"sections": [
 				{
 					"filename": "path",
 					"path": "/learn/installation",
@@ -59,7 +59,7 @@
 		},
 		{
 			"sectionHeader": "Learn React",
-			"chapters": [
+			"sections": [
 				{
 					"filename": "path",
 					"path": "/learn/describing-the-ui",
@@ -276,7 +276,7 @@
 		},
 		{
 			"sectionHeader": "About React",
-			"chapters": [
+			"sections": [
 				{
 					"filename": "path",
 					"path": "/community",
@@ -381,7 +381,7 @@
 		},
 		{
 			"sectionHeader": "'react' package",
-			"chapters": [
+			"sections": [
 				{
 					"filename": "path",
 					"path": "/reference/react/components",
@@ -554,7 +554,7 @@
 		},
 		{
 			"sectionHeader": "'react-dom' package",
-			"chapters": [
+			"sections": [
 				{
 					"filename": "path",
 					"path": "/reference/react-dom/components",
@@ -711,7 +711,7 @@
 		},
 		{
 			"sectionHeader": "Legacy APIs",
-			"chapters": [
+			"sections": [
 				{
 					"filename": "path",
 					"path": "/reference/react/legacy",

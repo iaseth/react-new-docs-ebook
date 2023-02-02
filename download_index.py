@@ -24,25 +24,25 @@ def main():
 	reference_json = json.load(open("data/sidebarReference.json"))
 	routes = learn_json["routes"][0]["routes"] + reference_json["routes"][0]["routes"]
 
-	sections = []
-	section = None
+	parts = []
+	part = None
 	for route in routes:
 		if "hasSectionHeader" in route:
-			section = {
+			part = {
 				"sectionHeader": route["sectionHeader"],
-				"chapters": []
+				"sections": []
 			}
-			sections.append(section)
+			parts.append(part)
 		else:
-			chapter = get_route_object(route)
-			chapter["pages"] = []
-			section["chapters"].append(chapter)
+			section = get_route_object(route)
+			section["pages"] = []
+			part["sections"].append(section)
 			for page_route in route["routes"]:
 				page = get_route_object(page_route)
-				chapter["pages"].append(page)
+				section["pages"].append(page)
 
 	jo = {}
-	jo["sections"] = sections
+	jo["parts"] = parts
 	output_json_name = 'pages.json'
 	with open(output_json_name, 'w') as f:
 		json.dump(jo, f, indent='\t')
