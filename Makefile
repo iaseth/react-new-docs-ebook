@@ -13,3 +13,4 @@ clean:
 	@rm -rf data/ebookbase/OEBPS/content.opf
 	@rm -rf data/ebookbase/OEBPS/toc.ncx
 	@rm -rf data/ebookbase/OEBPS/text/*.html
+	@rm -rf react-beta-docs.epub react-beta-docs.azw3
