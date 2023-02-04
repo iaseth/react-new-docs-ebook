@@ -19,17 +19,25 @@ def clean_soup(soup):
 	comments = soup.findAll(text=lambda text:isinstance(text, bs4.Comment))
 	[comment.extract() for comment in comments]
 
-	appendix = soup.find('div', class_='jPSzpJ')
-	if appendix: appendix.decompose()
+	# remove all "Show More" buttons
+	expands = soup.find_all("div", class_="sandpack--expands")
+	[expand.extract() for expand in expands]
 
-	styled_container = soup.find('div', class_='eFRJQn')
-	if styled_container: styled_container.decompose()
+	# removing it had no effect on kindle errors
+	codeblocks = soup.find_all("div", class_="sandpack--codeblock")
+
+	# removing it had no effect on kindle errors
+	playgrounds = soup.find_all("div", class_="sandpack--playground")
 
 	for tag in soup.find_all():
 		if tag.name in BAD_TAGS:
 			tag.decompose()
 			continue
 		elif tag.name in ['a', 'div']:
+			tag.attrs = {}
+		elif tag.name in ['details', 'summary']:
+			# this solved kindle errors
+			tag.name = "div"
 			tag.attrs = {}
 		elif tag.name is None:
 			continue
