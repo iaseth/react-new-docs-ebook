@@ -4,3 +4,6 @@ data/
 downloaded/html/*.html
 *.epub
 *.azw3
+
+# Local Netlify folder
+.netlify
