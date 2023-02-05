@@ -1,3 +1,4 @@
+import os
 from jinja2 import Template
 
 
@@ -40,6 +41,15 @@ class HtmlBaseclass:
 
 	def getTitle(self):
 		return self.title
+
+	def get_meta(self):
+		meta = {}
+		meta['title'] = self.title
+		meta['path'] = self.jo['path']
+		meta['URL'] = self.jo['URL']
+		meta['size'] = os.path.getsize(self.getHtmlPath())
+		meta['pages'] = [page.get_meta() for page in self.pages]
+		return meta
 
 	def __lt__(self, other):
 		return self.length() < other.length()
