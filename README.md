@@ -4,6 +4,12 @@ A `python` script to download [new React docs](https://beta.reactjs.org/) and ex
 
 
 
+## Screenshots
+* Table of contents
+	![Table of contents](/images/05-feb-2023/table-of-contents.png?raw=true "Table of contents")
+* Chapter Example
+	![Chapter Example](/images/05-feb-2023/describing-the-ui.png?raw=true "Chapter Example")
+
 
 
 ## Download Ebook
