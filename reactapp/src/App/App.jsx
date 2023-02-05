@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './App.scss';
 import ebook from '../ebook.json';
 
@@ -8,25 +10,43 @@ import Footer from './Footer';
 
 function Page ({page, k}) {
 	return (
-		<div>
-			<h5>Page #{k+1}</h5>
-			<h4>{page.title}</h4>
+		<div className="py-1">
+			<h6>
+				<span>Page # {k+1}</span>
+				<span className="px-1">&bull;</span>
+				<span>{(page.size/1000).toFixed(1)} kB</span>
+			</h6>
+			<h4 className="text-red-600">{page.title}</h4>
+			<h6>
+				<a href={page.URL} className="text-blue-800">@docs{page.path}</a>
+			</h6>
 		</div>
 	);
 }
 
 function Section ({section, k}) {
+	const [expanded, setExpanded] = React.useState(false);
+	const toggle = () => setExpanded(x => !x);
+
 	const pageItems = section.pages.map((page, k) => <Page key={k} {...{page, k}} />);
+
 	return (
-		<section>
-			<header className="px-2 py-2">
-				<h5>Section #{k+1}</h5>
-				<h2>{section.title}</h2>
+		<section className="bg-white border-b-2 border-zinc-200">
+			<header className="px-4 py-4 cursor-pointer" onClick={toggle}>
+				<h5>
+					<span>Section # {k+1}</span>
+					<span className="px-1">&bull;</span>
+					<span>{section.pages.length} pages</span>
+					<span className="px-1">&bull;</span>
+					<span>{(section.size/1000).toFixed(1)} kB</span>
+				</h5>
+				<h2 className="text-red-800">{section.title}</h2>
+				<h5>
+					<a href={section.URL} className="text-blue-800">@docs{section.path}</a>
+				</h5>
 			</header>
 
-			<main className="px-4 py-2">
-				{pageItems}
-			</main>
+			{expanded && <main className="pl-8 pr-4 pb-4">{pageItems}</main>}
 		</section>
 	);
 }
@@ -39,8 +59,8 @@ function App () {
 		<div className="">
 			<Header />
 
-			<main>
-				<article className="max-w-md mx-auto px-3 py-4">
+			<main className="bg-slate-200 text-slate-800">
+				<article className="max-w-md mx-auto">
 					<div>{sectionItems}</div>
 				</article>
 			</main>
