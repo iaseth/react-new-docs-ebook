@@ -21,5 +21,11 @@ class ReactOrgSection(HtmlBaseclass):
 	def get_content_html(self):
 		return open(self.filepath).read()
 
+	def get_meta(self):
+		meta = {}
+		meta['title'] = self.title
+		meta['pages'] = [page.get_meta() for page in self.pages]
+		return meta
+
 	def __str__(self):
 		return f"ReactOrgSection '{self.title}' [{self.length()} pages]"

@@ -18,5 +18,10 @@ class ReactOrgPage(HtmlBaseclass):
 	def get_content_html(self):
 		return open(self.filepath).read()
 
+	def get_meta(self):
+		meta = {}
+		meta['title'] = self.title
+		return meta
+
 	def __str__(self):
 		return f"ReactOrgPage '{self.title}'"

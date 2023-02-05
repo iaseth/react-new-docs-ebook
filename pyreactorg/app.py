@@ -100,6 +100,14 @@ class ReactOrgApp:
 			page.saveHtml()
 
 
+	def produce_meta_json(self, path):
+		jo = {}
+		jo["sections"] = [section.get_meta() for section in self.sections]
+		with open(path, "w") as f:
+			json.dump(jo, f)
+		print(f"\tsaved: ({path})")
+
+
 	def print(self):
 		print(f"ReactOrgApp:")
 		print(f"---- {len(self.sections)} sections")
