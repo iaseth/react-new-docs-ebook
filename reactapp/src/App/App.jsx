@@ -1,6 +1,10 @@
 import './App.scss';
 import ebook from '../ebook.json';
 
+import Header from './Header';
+import Footer from './Footer';
+
+
 
 function Page ({page, k}) {
 	return (
@@ -33,15 +37,15 @@ function App () {
 
 	return (
 		<div className="">
-			<header className="bg-red-500 text-white px-2 py-3 text-center">
-				<h3 className="">React docs for Kindle</h3>
-			</header>
+			<Header />
 
 			<main>
 				<article className="max-w-md mx-auto px-3 py-4">
 					<div>{sectionItems}</div>
 				</article>
 			</main>
+
+			<Footer />
 		</div>
 	);
 }
