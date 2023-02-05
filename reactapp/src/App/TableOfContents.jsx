@@ -63,7 +63,11 @@ export default function TableOfContents ({ebook}) {
 
 	return (
 		<article className="max-w-xl mx-auto">
-			<div>{sectionItems}</div>
+			<header className="text-center px-4 py-12">
+				<h2>Table of Contents</h2>
+			</header>
+
+			<main>{sectionItems}</main>
 		</article>
 	);
 }
